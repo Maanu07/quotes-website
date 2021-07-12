@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #39a2db;
+}
+
+.innerContainer {
+  background-color: #a2dbfa;
+  padding: 100px 50px;
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 54px;
+  border-bottom-right-radius: 24px;
+}
+
+.quotes {
+  background-color: #e8f0f2;
+  padding: 50px 30px;
+  color: #39a2db;
+  font-size: 30px;
+  width: 100%;
+}
+
+.quotes > h3 {
+  font-family: "Kaushan Script", cursive;
+}
+
+.author {
+  margin-top: 10px;
+  color: black;
+  text-align: right;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #e8f0f2;
+  width: 100%;
+}
+
+.btn-container > button {
+  background-color: #39a2db;
+  padding: 8px 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.btn-container > button:hover {
+  background-color: #a2dbfa;
+}
