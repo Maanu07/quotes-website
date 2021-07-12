@@ -49,4 +49,6 @@ btn.addEventListener("click", getQuote);
 
 twitterBtn.addEventListener("click", tweet);
 
-fetchQuotes();
+window.addEventListener("load", () => {
+  fetchQuotes();
+});
